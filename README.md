@@ -9,6 +9,7 @@ Weather Forecast is an application that makes use of the AccuWeather API to retr
 
 !["Screenshot of main page"](/img/preview.png)
 
+#
 
 ## 💻 Features
 
