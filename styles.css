@@ -1,5 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: #eeedec;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
     letter-spacing: 0.2em;
     font-size: 0.8em;
 }
@@ -14,4 +20,25 @@ body{
     border-radius: 50%;
     width: 100px;
     margin-bottom: -50px;
+}
+
+.glass{
+    background: white;
+        background: linear-gradient(
+        to right bottom, 
+        rgba(255, 255, 255, 0.7), 
+        rgba(255, 255, 255, 0.3));
+        border-radius: 10px;
+}
+
+.glassempty {
+    background: white;
+        background: linear-gradient(
+        to right bottom, 
+        rgba(255, 255, 255, 0.7), 
+        rgba(255, 255, 255, 0.3));
+    border-radius: 10px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
 }

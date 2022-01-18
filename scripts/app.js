@@ -4,6 +4,7 @@ const details = document.querySelector('.details');
 const time = document.querySelector('img.time');
 const icon = document.querySelector('.icon img');
 const forecast = new Forecast();
+const wrapper = document.querySelector('.wrapper');
 
 const updateUI = data => {
 
@@ -43,6 +44,8 @@ form.addEventListener('submit', event => {
         .then(data => updateUI(data))
         .catch(err => console.log(err));
 
+    wrapper.classList.remove('glassempty');
+    wrapper.classList.add('glass');
     localStorage.setItem('location', city);
 
 });
@@ -51,4 +54,7 @@ if(localStorage.getItem('location')){
     forecast.updateCity(localStorage.getItem('location'))
         .then(data => updateUI(data))
         .catch(err => console.log(err));
+        wrapper.classList.remove('glassempty');
+        wrapper.classList.add('glass');
+
 }
