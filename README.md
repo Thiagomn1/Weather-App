@@ -5,12 +5,6 @@ Weather Forecast is an application that makes use of the AccuWeather API to retr
 
 📌 Click [here](https://weather-forecast0.netlify.app/) to visit the deployed application.
 
-#
-
-!["Screenshot of main page"](/img/preview.png)
-
-#
-
 ## 💻 Features
 
 - Search the desired location
